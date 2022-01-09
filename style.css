@@ -1,0 +1,336 @@
+html, body {
+    padding:0; 
+    margin:0;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E4D8DC;
+}
+#myButton{
+    float: right;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.Menu {
+    float: left;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+}
+
+.Menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.Menu a:hover {
+    background-color: #111;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.picture{
+    width: 100%;
+}
+.text{
+    font-family: 'Source Serif Pro', serif;
+    position: absolute;
+    color: white;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Source Serif Pro', serif;
+}
+h2{
+    font-size: 30px;
+}
+.textTwo{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    color: white;
+}
+.invite{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 50px;
+}
+.headingTwo{
+    
+    display: flex;
+    justify-content: center;
+}
+.case{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.webinar{
+    background-image: url("https://images.unsplash.com/photo-1512389055488-8d82cb26ba6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=383&q=80");
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin-top: 25px;
+    border-style: ridge;
+}
+.blok{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 30px;
+}
+.days, .hours, .minutes, .seconds{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 40px;
+}
+
+.Foto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.speaker{
+    width: 420px;
+}
+.fotoOne{
+    position: relative;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+}
+.Name{
+    font-size: 40px;
+}
+.textone{
+    position: absolute;
+    top:125px;
+    left: 16px;
+}
+.texttwo{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+}
+.Who{
+    display: flex;
+    justify-content: center;
+}
+.Name{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.knowledge{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.container {
+    position: relative;
+    
+    padding: 20px;
+  }
+.bottles{
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-10%, -50%);
+    -ms-transform: translate(-10%, -50%)
+  }
+  .container:hover .bottles {
+    opacity: 0.3;
+  }
+  .container:hover .middle {
+    opacity: 1;
+  }
+  .Text {
+    background-color: #444941;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+  }
+.lore{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 30px;
+    
+}
+.point{
+    padding: 25px;
+}
+.closed{
+    color: #7D1935;
+    font-family: 'Source Code Pro', monospace;
+}
+
+@media all and (max-width: 800px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .Menu{
+        align-self: center;
+        font-size: 12px;
+    }
+    #myButton{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .invite{
+        font-size: 20px;
+    }
+    .webinar{
+        height: 120px;
+    width: 70px;
+    margin-top: 15px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .days, .hours, .minutes, .seconds{
+        font-size: 20px;
+    }
+    .speaker{
+        width: 220px;
+    }
+    .fotoOne{
+        font-size: 10px;
+    }
+    .Name{
+        font-size: 20px;
+    }
+    .textone{
+        top:75px;
+        
+    }
+    .texttwo{
+        bottom: 8px;
+        left: 6px;
+    }
+
+    .Text {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .middle {
+        top: 15%;
+    }
+    .lore{
+        font-size: 20px;
+    }
+    .point{
+        padding: 10px;
+    }
+}
+@media all and (max-width: 500px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .Menu{
+        align-self: center;
+        font-size: 12px;
+    }
+    #myButton{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .textTwo{
+        top: 55%;
+        left: 5%;
+        color: white;
+    }
+    .invite{
+        font-size: 15px;
+    }
+    .webinar{
+        height: 90px;
+    width: 60px;
+    margin-top: 5px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    .days, .hours, .minutes, .seconds{
+        font-size: 15px;
+    }
+    .speaker{
+        width: 160px;
+    }
+    .fotoOne{
+        font-size: 8px;
+    }
+    .Name{
+        font-size: 15px;
+    }
+    .textone{
+        top:50px;
+    }
+    .texttwo{
+        bottom: 8px;
+        left: 6px;
+    }
+    .Text {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .middle {
+        top: 20%;
+        left: 10%;
+    }
+    .lore{
+        font-size: 13px;
+        
+    }
+    .point{
+        padding: 10px;
+    }
+    .knowledge{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottles{
+        width: 50%;
+    }
+}
